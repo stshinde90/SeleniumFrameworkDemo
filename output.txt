@@ -1,0 +1,494 @@
+failed to get console mode for stdout: The handle is invalid.
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Network seleniumframeworkpractice_default  [32mCreated[0m[34m0.0s [0m
+ - Container selenium-framework_Batch         Creating[34m0.0s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Network seleniumframeworkpractice_default      [32mCreated[0m[34m0.0s [0m
+ [32m✔[0m Container selenium-framework_Batch             [32mCreated[0m[34m0.1s [0m
+ - Container seleniumframeworkpractice-chrome-1   Creating[34m0.1s [0m
+ - Container seleniumframeworkpractice-firefox-1  Creating[34m0.1s [0m
+[?25h[1A[1A[1A[1A[1A[0G[?25l[34m[+] Running 4/4[0m
+ [32m✔[0m Network seleniumframeworkpractice_default      [32mCreated[0m[34m0.0s [0m
+ [32m✔[0m Container selenium-framework_Batch             [32mCreated[0m[34m0.1s [0m
+ [32m✔[0m Container seleniumframeworkpractice-chrome-1   [32mCreated[0m[34m0.1s [0m
+ [32m✔[0m Container seleniumframeworkpractice-firefox-1  [32mCreated[0m[34m0.1s [0m
+[?25hAttaching to selenium-framework_Batch, seleniumframeworkpractice-chrome-1, seleniumframeworkpractice-firefox-1
+selenium-framework_Batch             | 2023-07-13 08:29:54,454 INFO Included extra file "/etc/supervisor/conf.d/selenium-grid-hub.conf" during parsing
+selenium-framework_Batch             | 2023-07-13 08:29:54,457 INFO RPC interface 'supervisor' initialized
+selenium-framework_Batch             | 2023-07-13 08:29:54,457 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+selenium-framework_Batch             | 2023-07-13 08:29:54,460 INFO supervisord started with pid 9
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:55,137 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:55,137 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:55,139 INFO RPC interface 'supervisor' initialized
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:55,139 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:55,140 INFO supervisord started with pid 8
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:55,139 INFO RPC interface 'supervisor' initialized
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:55,140 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:55,140 INFO supervisord started with pid 8
+selenium-framework_Batch             | 2023-07-13 08:29:55,462 INFO spawned: 'selenium-grid-hub' with pid 11
+selenium-framework_Batch             | Tracing is disabled
+selenium-framework_Batch             | 2023-07-13 08:29:55,465 INFO success: selenium-grid-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+selenium-framework_Batch             | 08:29:55.755 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+selenium-framework_Batch             | 08:29:55.759 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+selenium-framework_Batch             | 08:29:55.837 INFO [BoundZmqEventBus.<init>] - XPUB binding to [binding to tcp://*:4442, advertising as tcp://172.18.0.2:4442], XSUB binding to [binding to tcp://*:4443, advertising as tcp://172.18.0.2:4443]
+selenium-framework_Batch             | 08:29:55.876 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://172.18.0.2:4442 and tcp://172.18.0.2:4443
+selenium-framework_Batch             | 08:29:55.890 INFO [UnboundZmqEventBus.<init>] - Sockets created
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:56,145 INFO spawned: 'xvfb' with pid 10
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:56,144 INFO spawned: 'xvfb' with pid 10
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:56,148 INFO spawned: 'vnc' with pid 11
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:56,148 INFO spawned: 'vnc' with pid 11
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:56,150 INFO spawned: 'novnc' with pid 12
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:56,151 INFO spawned: 'novnc' with pid 12
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:56,152 INFO spawned: 'selenium-node' with pid 14
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:56,153 INFO spawned: 'selenium-node' with pid 14
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:56,171 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:56,172 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+seleniumframeworkpractice-chrome-1   | Generating Selenium Config
+seleniumframeworkpractice-chrome-1   | Configuring server...
+seleniumframeworkpractice-chrome-1   | Setting up SE_NODE_HOST...
+seleniumframeworkpractice-chrome-1   | Setting up SE_NODE_PORT...
+seleniumframeworkpractice-chrome-1   | Setting up SE_NODE_GRID_URL...
+seleniumframeworkpractice-firefox-1  | Generating Selenium Config
+seleniumframeworkpractice-firefox-1  | Configuring server...
+seleniumframeworkpractice-firefox-1  | Setting up SE_NODE_HOST...
+seleniumframeworkpractice-firefox-1  | Setting up SE_NODE_PORT...
+seleniumframeworkpractice-firefox-1  | Setting up SE_NODE_GRID_URL...
+seleniumframeworkpractice-chrome-1   | Tracing is disabled
+seleniumframeworkpractice-chrome-1   | Selenium Grid Node configuration: 
+seleniumframeworkpractice-chrome-1   | [events]
+seleniumframeworkpractice-chrome-1   | publish = "tcp://selenium-framework_Batch:4442"
+seleniumframeworkpractice-chrome-1   | subscribe = "tcp://selenium-framework_Batch:4443"
+seleniumframeworkpractice-chrome-1   | 
+seleniumframeworkpractice-chrome-1   | [node]
+seleniumframeworkpractice-chrome-1   | session-timeout = "300"
+seleniumframeworkpractice-chrome-1   | override-max-sessions = false
+seleniumframeworkpractice-chrome-1   | detect-drivers = false
+seleniumframeworkpractice-chrome-1   | drain-after-session-count = 0
+seleniumframeworkpractice-chrome-1   | max-sessions = 1
+seleniumframeworkpractice-chrome-1   | 
+seleniumframeworkpractice-chrome-1   | [[node.driver-configuration]]
+seleniumframeworkpractice-chrome-1   | display-name = "chrome"
+seleniumframeworkpractice-chrome-1   | stereotype = '{"browserName": "chrome", "browserVersion": "108.0", "platformName": "Linux"}'
+seleniumframeworkpractice-chrome-1   | max-sessions = 1
+seleniumframeworkpractice-chrome-1   | 
+seleniumframeworkpractice-chrome-1   | Starting Selenium Grid Node...
+seleniumframeworkpractice-firefox-1  | Tracing is disabled
+seleniumframeworkpractice-firefox-1  | Selenium Grid Node configuration: 
+seleniumframeworkpractice-firefox-1  | [events]
+seleniumframeworkpractice-firefox-1  | publish = "tcp://selenium-framework_Batch:4442"
+seleniumframeworkpractice-firefox-1  | subscribe = "tcp://selenium-framework_Batch:4443"
+seleniumframeworkpractice-firefox-1  | 
+seleniumframeworkpractice-firefox-1  | [node]
+seleniumframeworkpractice-firefox-1  | session-timeout = "300"
+seleniumframeworkpractice-firefox-1  | override-max-sessions = false
+seleniumframeworkpractice-firefox-1  | detect-drivers = false
+seleniumframeworkpractice-firefox-1  | drain-after-session-count = 0
+seleniumframeworkpractice-firefox-1  | max-sessions = 1
+seleniumframeworkpractice-firefox-1  | 
+seleniumframeworkpractice-firefox-1  | [[node.driver-configuration]]
+seleniumframeworkpractice-firefox-1  | display-name = "firefox"
+seleniumframeworkpractice-firefox-1  | stereotype = '{"browserName": "firefox", "browserVersion": "108.0", "platformName": "Linux"}'
+seleniumframeworkpractice-firefox-1  | max-sessions = 1
+seleniumframeworkpractice-firefox-1  | 
+seleniumframeworkpractice-firefox-1  | Starting Selenium Grid Node...
+selenium-framework_Batch             | 08:29:56.891 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+seleniumframeworkpractice-firefox-1  | 08:29:56.913 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+seleniumframeworkpractice-firefox-1  | 08:29:56.919 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+seleniumframeworkpractice-chrome-1   | 08:29:56.920 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+seleniumframeworkpractice-chrome-1   | 08:29:56.926 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+seleniumframeworkpractice-chrome-1   | 08:29:57.055 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-framework_Batch:4442 and tcp://selenium-framework_Batch:4443
+seleniumframeworkpractice-firefox-1  | 08:29:57.055 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-framework_Batch:4442 and tcp://selenium-framework_Batch:4443
+seleniumframeworkpractice-chrome-1   | 08:29:57.102 INFO [UnboundZmqEventBus.<init>] - Sockets created
+seleniumframeworkpractice-firefox-1  | 08:29:57.104 INFO [UnboundZmqEventBus.<init>] - Sockets created
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:57,174 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:57,174 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:29:57,174 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:57,176 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:57,176 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:29:57,176 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+selenium-framework_Batch             | 08:29:57.456 INFO [Hub.execute] - Started Selenium Hub 4.7.2 (revision 4d4020c3b7): http://172.18.0.2:4444
+seleniumframeworkpractice-chrome-1   | 08:29:58.106 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+seleniumframeworkpractice-firefox-1  | 08:29:58.108 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+seleniumframeworkpractice-chrome-1   | 08:29:58.208 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.4:5555
+seleniumframeworkpractice-firefox-1  | 08:29:58.213 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.3:5555
+seleniumframeworkpractice-chrome-1   | 08:29:58.222 INFO [NodeOptions.getSessionFactories] - Detected 16 available processors
+seleniumframeworkpractice-firefox-1  | 08:29:58.228 INFO [NodeOptions.getSessionFactories] - Detected 16 available processors
+seleniumframeworkpractice-chrome-1   | 08:29:58.255 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "108.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+seleniumframeworkpractice-chrome-1   | 08:29:58.271 INFO [Node.<init>] - Binding additional locator mechanisms: relative, name, id
+seleniumframeworkpractice-firefox-1  | 08:29:58.272 INFO [NodeOptions.report] - Adding firefox for {"browserVersion": "108.0","se:noVncPort": 7900,"browserName": "firefox","platformName": "LINUX","se:vncEnabled": true} 1 times
+seleniumframeworkpractice-firefox-1  | 08:29:58.289 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+seleniumframeworkpractice-chrome-1   | 08:29:58.447 INFO [NodeServer$1.start] - Starting registration process for Node http://172.18.0.4:5555
+seleniumframeworkpractice-chrome-1   | 08:29:58.448 INFO [NodeServer.execute] - Started Selenium node 4.7.2 (revision 4d4020c3b7): http://172.18.0.4:5555
+seleniumframeworkpractice-firefox-1  | 08:29:58.457 INFO [NodeServer$1.start] - Starting registration process for Node http://172.18.0.3:5555
+seleniumframeworkpractice-firefox-1  | 08:29:58.458 INFO [NodeServer.execute] - Started Selenium node 4.7.2 (revision 4d4020c3b7): http://172.18.0.3:5555
+seleniumframeworkpractice-chrome-1   | 08:29:58.457 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+seleniumframeworkpractice-firefox-1  | 08:29:58.466 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-framework_Batch             | 08:29:58.491 INFO [Node.<init>] - Binding additional locator mechanisms: id, relative, name
+selenium-framework_Batch             | 08:29:58.887 INFO [GridModel.setAvailability] - Switching Node d87b9e63-57fa-49ac-b406-b55053dad99e (uri: http://172.18.0.3:5555) from DOWN to UP
+selenium-framework_Batch             | 08:29:58.887 INFO [LocalDistributor.add] - Added node d87b9e63-57fa-49ac-b406-b55053dad99e at http://172.18.0.3:5555. Health check every 120s
+selenium-framework_Batch             | 08:29:58.890 INFO [Node.<init>] - Binding additional locator mechanisms: name, relative, id
+seleniumframeworkpractice-firefox-1  | 08:29:58.894 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-framework_Batch             | 08:29:58.990 INFO [GridModel.setAvailability] - Switching Node 8369070c-8800-4606-99da-cb83926fe171 (uri: http://172.18.0.4:5555) from DOWN to UP
+selenium-framework_Batch             | 08:29:58.990 INFO [LocalDistributor.add] - Added node 8369070c-8800-4606-99da-cb83926fe171 at http://172.18.0.4:5555. Health check every 120s
+seleniumframeworkpractice-chrome-1   | 08:29:58.993 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+seleniumframeworkpractice-chrome-1   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:05,001 WARN received SIGTERM indicating exit request
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:05,001 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:05,324 INFO stopped: selenium-node (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:06,326 INFO stopped: novnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:07,328 INFO stopped: vnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:08,331 INFO stopped: xvfb (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-1   | Shutdown complete
+seleniumframeworkpractice-chrome-1 exited with code 0
+seleniumframeworkpractice-chrome-1 has been recreated
+seleniumframeworkpractice-chrome-1 exited with code 143
+seleniumframeworkpractice-chrome-1 has been recreated
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:09,205 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:09,207 INFO RPC interface 'supervisor' initialized
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:09,207 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:09,208 INFO supervisord started with pid 8
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:09,540 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:09,543 INFO RPC interface 'supervisor' initialized
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:09,543 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:09,543 INFO supervisord started with pid 8
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:09,902 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:09,904 INFO RPC interface 'supervisor' initialized
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:09,905 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:09,905 INFO supervisord started with pid 8
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:10,210 INFO spawned: 'xvfb' with pid 10
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:10,211 INFO spawned: 'vnc' with pid 11
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:10,212 INFO spawned: 'novnc' with pid 12
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:10,214 INFO spawned: 'selenium-node' with pid 14
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:10,227 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:10,244 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:10,247 INFO RPC interface 'supervisor' initialized
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:10,247 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:10,248 INFO supervisord started with pid 8
+seleniumframeworkpractice-chrome-1   | Generating Selenium Config
+seleniumframeworkpractice-chrome-1   | Configuring server...
+seleniumframeworkpractice-chrome-1   | Setting up SE_NODE_HOST...
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:10,545 INFO spawned: 'xvfb' with pid 10
+seleniumframeworkpractice-chrome-1   | Setting up SE_NODE_PORT...
+seleniumframeworkpractice-chrome-1   | Setting up SE_NODE_GRID_URL...
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:10,547 INFO spawned: 'vnc' with pid 11
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:10,548 INFO spawned: 'novnc' with pid 12
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:10,550 INFO spawned: 'selenium-node' with pid 14
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:10,565 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+seleniumframeworkpractice-chrome-1   | Tracing is disabled
+seleniumframeworkpractice-chrome-1   | Selenium Grid Node configuration: 
+seleniumframeworkpractice-chrome-1   | [events]
+seleniumframeworkpractice-chrome-1   | publish = "tcp://selenium-framework_Batch:4442"
+seleniumframeworkpractice-chrome-1   | subscribe = "tcp://selenium-framework_Batch:4443"
+seleniumframeworkpractice-chrome-1   | 
+seleniumframeworkpractice-chrome-1   | [node]
+seleniumframeworkpractice-chrome-1   | session-timeout = "300"
+seleniumframeworkpractice-chrome-1   | override-max-sessions = false
+seleniumframeworkpractice-chrome-1   | detect-drivers = false
+seleniumframeworkpractice-chrome-1   | drain-after-session-count = 0
+seleniumframeworkpractice-chrome-1   | max-sessions = 1
+seleniumframeworkpractice-chrome-1   | 
+seleniumframeworkpractice-chrome-1   | [[node.driver-configuration]]
+seleniumframeworkpractice-chrome-1   | display-name = "chrome"
+seleniumframeworkpractice-chrome-1   | stereotype = '{"browserName": "chrome", "browserVersion": "108.0", "platformName": "Linux"}'
+seleniumframeworkpractice-chrome-1   | max-sessions = 1
+seleniumframeworkpractice-chrome-1   | 
+seleniumframeworkpractice-chrome-1   | Starting Selenium Grid Node...
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:10,601 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:10,604 INFO RPC interface 'supervisor' initialized
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:10,605 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:10,605 INFO supervisord started with pid 8
+seleniumframeworkpractice-chrome-2   | Generating Selenium Config
+seleniumframeworkpractice-chrome-2   | Configuring server...
+seleniumframeworkpractice-chrome-2   | Setting up SE_NODE_HOST...
+seleniumframeworkpractice-chrome-2   | Setting up SE_NODE_PORT...
+seleniumframeworkpractice-chrome-2   | Setting up SE_NODE_GRID_URL...
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:10,906 INFO spawned: 'xvfb' with pid 10
+seleniumframeworkpractice-chrome-1   | 08:30:10.906 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:10,909 INFO spawned: 'vnc' with pid 11
+seleniumframeworkpractice-chrome-1   | 08:30:10.910 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:10,911 INFO spawned: 'novnc' with pid 12
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:10,914 INFO spawned: 'selenium-node' with pid 13
+seleniumframeworkpractice-chrome-2   | Tracing is disabled
+seleniumframeworkpractice-chrome-2   | Selenium Grid Node configuration: 
+seleniumframeworkpractice-chrome-2   | [events]
+seleniumframeworkpractice-chrome-2   | publish = "tcp://selenium-framework_Batch:4442"
+seleniumframeworkpractice-chrome-2   | subscribe = "tcp://selenium-framework_Batch:4443"
+seleniumframeworkpractice-chrome-2   | 
+seleniumframeworkpractice-chrome-2   | [node]
+seleniumframeworkpractice-chrome-2   | session-timeout = "300"
+seleniumframeworkpractice-chrome-2   | override-max-sessions = false
+seleniumframeworkpractice-chrome-2   | detect-drivers = false
+seleniumframeworkpractice-chrome-2   | drain-after-session-count = 0
+seleniumframeworkpractice-chrome-2   | max-sessions = 1
+seleniumframeworkpractice-chrome-2   | 
+seleniumframeworkpractice-chrome-2   | [[node.driver-configuration]]
+seleniumframeworkpractice-chrome-2   | display-name = "chrome"
+seleniumframeworkpractice-chrome-2   | stereotype = '{"browserName": "chrome", "browserVersion": "108.0", "platformName": "Linux"}'
+seleniumframeworkpractice-chrome-2   | max-sessions = 1
+seleniumframeworkpractice-chrome-2   | 
+seleniumframeworkpractice-chrome-2   | Starting Selenium Grid Node...
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:10,929 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+seleniumframeworkpractice-chrome-1   | 08:30:11.049 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-framework_Batch:4442 and tcp://selenium-framework_Batch:4443
+seleniumframeworkpractice-chrome-1   | 08:30:11.100 INFO [UnboundZmqEventBus.<init>] - Sockets created
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:11,231 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:11,231 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:11,231 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:11,250 INFO spawned: 'xvfb' with pid 10
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:11,251 INFO spawned: 'vnc' with pid 11
+seleniumframeworkpractice-chrome-4   | Generating Selenium Config
+seleniumframeworkpractice-chrome-4   | Configuring server...
+seleniumframeworkpractice-chrome-4   | Setting up SE_NODE_HOST...
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:11,253 INFO spawned: 'novnc' with pid 12
+seleniumframeworkpractice-chrome-4   | Setting up SE_NODE_PORT...
+seleniumframeworkpractice-chrome-4   | Setting up SE_NODE_GRID_URL...
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:11,255 INFO spawned: 'selenium-node' with pid 15
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:11,266 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+seleniumframeworkpractice-chrome-4   | Tracing is disabled
+seleniumframeworkpractice-chrome-4   | Selenium Grid Node configuration: 
+seleniumframeworkpractice-chrome-4   | [events]
+seleniumframeworkpractice-chrome-4   | publish = "tcp://selenium-framework_Batch:4442"
+seleniumframeworkpractice-chrome-4   | subscribe = "tcp://selenium-framework_Batch:4443"
+seleniumframeworkpractice-chrome-4   | 
+seleniumframeworkpractice-chrome-4   | [node]
+seleniumframeworkpractice-chrome-4   | session-timeout = "300"
+seleniumframeworkpractice-chrome-4   | override-max-sessions = false
+seleniumframeworkpractice-chrome-4   | detect-drivers = false
+seleniumframeworkpractice-chrome-4   | drain-after-session-count = 0
+seleniumframeworkpractice-chrome-4   | max-sessions = 1
+seleniumframeworkpractice-chrome-4   | 
+seleniumframeworkpractice-chrome-4   | [[node.driver-configuration]]
+seleniumframeworkpractice-chrome-4   | display-name = "chrome"
+seleniumframeworkpractice-chrome-4   | stereotype = '{"browserName": "chrome", "browserVersion": "108.0", "platformName": "Linux"}'
+seleniumframeworkpractice-chrome-4   | max-sessions = 1
+seleniumframeworkpractice-chrome-4   | 
+seleniumframeworkpractice-chrome-4   | Starting Selenium Grid Node...
+seleniumframeworkpractice-chrome-2   | 08:30:11.303 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+seleniumframeworkpractice-chrome-2   | 08:30:11.307 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+seleniumframeworkpractice-chrome-2   | 08:30:11.434 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-framework_Batch:4442 and tcp://selenium-framework_Batch:4443
+seleniumframeworkpractice-chrome-2   | 08:30:11.482 INFO [UnboundZmqEventBus.<init>] - Sockets created
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:11,569 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:11,569 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:11,569 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:11,839 INFO spawned: 'xvfb' with pid 10
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:11,841 INFO spawned: 'vnc' with pid 11
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:11,842 INFO spawned: 'novnc' with pid 12
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:11,844 INFO spawned: 'selenium-node' with pid 13
+seleniumframeworkpractice-chrome-5   | Generating Selenium Config
+seleniumframeworkpractice-chrome-5   | Configuring server...
+seleniumframeworkpractice-chrome-5   | Setting up SE_NODE_HOST...
+seleniumframeworkpractice-chrome-5   | Setting up SE_NODE_PORT...
+seleniumframeworkpractice-chrome-5   | Setting up SE_NODE_GRID_URL...
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:11,859 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+seleniumframeworkpractice-chrome-5   | Tracing is disabled
+seleniumframeworkpractice-chrome-5   | Selenium Grid Node configuration: 
+seleniumframeworkpractice-chrome-5   | [events]
+seleniumframeworkpractice-chrome-5   | publish = "tcp://selenium-framework_Batch:4442"
+seleniumframeworkpractice-chrome-5   | subscribe = "tcp://selenium-framework_Batch:4443"
+seleniumframeworkpractice-chrome-5   | 
+seleniumframeworkpractice-chrome-5   | [node]
+seleniumframeworkpractice-chrome-5   | session-timeout = "300"
+seleniumframeworkpractice-chrome-5   | override-max-sessions = false
+seleniumframeworkpractice-chrome-5   | detect-drivers = false
+seleniumframeworkpractice-chrome-5   | drain-after-session-count = 0
+seleniumframeworkpractice-chrome-5   | max-sessions = 1
+seleniumframeworkpractice-chrome-5   | 
+seleniumframeworkpractice-chrome-5   | [[node.driver-configuration]]
+seleniumframeworkpractice-chrome-5   | display-name = "chrome"
+seleniumframeworkpractice-chrome-5   | stereotype = '{"browserName": "chrome", "browserVersion": "108.0", "platformName": "Linux"}'
+seleniumframeworkpractice-chrome-5   | max-sessions = 1
+seleniumframeworkpractice-chrome-5   | 
+seleniumframeworkpractice-chrome-5   | Starting Selenium Grid Node...
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:11,938 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:11,938 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:11,938 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-4   | 08:30:12.067 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+seleniumframeworkpractice-chrome-4   | 08:30:12.072 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+seleniumframeworkpractice-chrome-1   | 08:30:12.102 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:12,270 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:12,270 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:12,270 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-1   | 08:30:12.328 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.4:5555
+seleniumframeworkpractice-chrome-3   | Generating Selenium Config
+seleniumframeworkpractice-chrome-3   | Configuring server...
+seleniumframeworkpractice-chrome-3   | Setting up SE_NODE_HOST...
+seleniumframeworkpractice-chrome-3   | Setting up SE_NODE_PORT...
+seleniumframeworkpractice-chrome-3   | Setting up SE_NODE_GRID_URL...
+seleniumframeworkpractice-chrome-1   | 08:30:12.348 INFO [NodeOptions.getSessionFactories] - Detected 16 available processors
+seleniumframeworkpractice-chrome-3   | Tracing is disabled
+seleniumframeworkpractice-chrome-3   | Selenium Grid Node configuration: 
+seleniumframeworkpractice-chrome-3   | [events]
+seleniumframeworkpractice-chrome-3   | publish = "tcp://selenium-framework_Batch:4442"
+seleniumframeworkpractice-chrome-3   | subscribe = "tcp://selenium-framework_Batch:4443"
+seleniumframeworkpractice-chrome-3   | 
+seleniumframeworkpractice-chrome-3   | [node]
+seleniumframeworkpractice-chrome-3   | session-timeout = "300"
+seleniumframeworkpractice-chrome-3   | override-max-sessions = false
+seleniumframeworkpractice-chrome-3   | detect-drivers = false
+seleniumframeworkpractice-chrome-3   | drain-after-session-count = 0
+seleniumframeworkpractice-chrome-3   | max-sessions = 1
+seleniumframeworkpractice-chrome-3   | 
+seleniumframeworkpractice-chrome-3   | [[node.driver-configuration]]
+seleniumframeworkpractice-chrome-3   | display-name = "chrome"
+seleniumframeworkpractice-chrome-3   | stereotype = '{"browserName": "chrome", "browserVersion": "108.0", "platformName": "Linux"}'
+seleniumframeworkpractice-chrome-3   | max-sessions = 1
+seleniumframeworkpractice-chrome-3   | 
+seleniumframeworkpractice-chrome-3   | Starting Selenium Grid Node...
+seleniumframeworkpractice-chrome-1   | 08:30:12.403 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "108.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+seleniumframeworkpractice-chrome-1   | 08:30:12.423 INFO [Node.<init>] - Binding additional locator mechanisms: id, name, relative
+seleniumframeworkpractice-chrome-4   | 08:30:12.470 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-framework_Batch:4442 and tcp://selenium-framework_Batch:4443
+seleniumframeworkpractice-chrome-2   | 08:30:12.485 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+seleniumframeworkpractice-chrome-4   | 08:30:12.547 INFO [UnboundZmqEventBus.<init>] - Sockets created
+seleniumframeworkpractice-chrome-2   | 08:30:12.642 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.5:5555
+seleniumframeworkpractice-chrome-2   | 08:30:12.660 INFO [NodeOptions.getSessionFactories] - Detected 16 available processors
+seleniumframeworkpractice-chrome-1   | 08:30:12.676 INFO [NodeServer$1.start] - Starting registration process for Node http://172.18.0.4:5555
+seleniumframeworkpractice-chrome-1   | 08:30:12.677 INFO [NodeServer.execute] - Started Selenium node 4.7.2 (revision 4d4020c3b7): http://172.18.0.4:5555
+seleniumframeworkpractice-chrome-1   | 08:30:12.689 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-framework_Batch             | 08:30:12.717 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+seleniumframeworkpractice-chrome-2   | 08:30:12.717 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "108.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+seleniumframeworkpractice-chrome-2   | 08:30:12.749 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:12,865 INFO success: xvfb entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:12,865 INFO success: vnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:12,865 INFO success: novnc entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+selenium-framework_Batch             | 08:30:12.946 INFO [GridModel.setAvailability] - Switching Node 45218b22-ec50-4a0c-8a69-ce21fb485213 (uri: http://172.18.0.4:5555) from DOWN to UP
+selenium-framework_Batch             | 08:30:12.946 INFO [LocalDistributor.add] - Added node 45218b22-ec50-4a0c-8a69-ce21fb485213 at http://172.18.0.4:5555. Health check every 120s
+seleniumframeworkpractice-chrome-3   | 08:30:12.950 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+seleniumframeworkpractice-chrome-1   | 08:30:12.954 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+seleniumframeworkpractice-chrome-3   | 08:30:12.957 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+seleniumframeworkpractice-chrome-5   | 08:30:12.963 INFO [LoggingOptions.configureLogEncoding] - Using the system default encoding
+seleniumframeworkpractice-chrome-5   | 08:30:12.971 INFO [OpenTelemetryTracer.createTracer] - Using OpenTelemetry for tracing
+seleniumframeworkpractice-chrome-2   | 08:30:12.992 INFO [NodeServer$1.start] - Starting registration process for Node http://172.18.0.5:5555
+seleniumframeworkpractice-chrome-2   | 08:30:12.994 INFO [NodeServer.execute] - Started Selenium node 4.7.2 (revision 4d4020c3b7): http://172.18.0.5:5555
+seleniumframeworkpractice-chrome-2   | 08:30:13.005 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-framework_Batch             | 08:30:13.013 INFO [Node.<init>] - Binding additional locator mechanisms: id, name, relative
+seleniumframeworkpractice-chrome-3   | 08:30:13.115 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-framework_Batch:4442 and tcp://selenium-framework_Batch:4443
+seleniumframeworkpractice-chrome-5   | 08:30:13.128 INFO [UnboundZmqEventBus.<init>] - Connecting to tcp://selenium-framework_Batch:4442 and tcp://selenium-framework_Batch:4443
+seleniumframeworkpractice-chrome-3   | 08:30:13.165 INFO [UnboundZmqEventBus.<init>] - Sockets created
+seleniumframeworkpractice-chrome-5   | 08:30:13.183 INFO [UnboundZmqEventBus.<init>] - Sockets created
+selenium-framework_Batch             | 08:30:13.193 INFO [GridModel.setAvailability] - Switching Node 69453645-0f68-46a3-98b5-7c586273ee75 (uri: http://172.18.0.5:5555) from DOWN to UP
+selenium-framework_Batch             | 08:30:13.193 INFO [LocalDistributor.add] - Added node 69453645-0f68-46a3-98b5-7c586273ee75 at http://172.18.0.5:5555. Health check every 120s
+seleniumframeworkpractice-chrome-2   | 08:30:13.196 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+seleniumframeworkpractice-chrome-4   | 08:30:13.550 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+seleniumframeworkpractice-chrome-4   | 08:30:13.634 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.6:5555
+seleniumframeworkpractice-chrome-4   | 08:30:13.650 INFO [NodeOptions.getSessionFactories] - Detected 16 available processors
+seleniumframeworkpractice-chrome-4   | 08:30:13.687 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "108.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+seleniumframeworkpractice-chrome-4   | 08:30:13.703 INFO [Node.<init>] - Binding additional locator mechanisms: name, id, relative
+seleniumframeworkpractice-chrome-4   | 08:30:13.851 INFO [NodeServer$1.start] - Starting registration process for Node http://172.18.0.6:5555
+seleniumframeworkpractice-chrome-4   | 08:30:13.852 INFO [NodeServer.execute] - Started Selenium node 4.7.2 (revision 4d4020c3b7): http://172.18.0.6:5555
+seleniumframeworkpractice-chrome-4   | 08:30:13.861 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-framework_Batch             | 08:30:13.868 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+selenium-framework_Batch             | 08:30:13.970 INFO [GridModel.setAvailability] - Switching Node 82790954-b886-4d76-85f9-65015f00ff14 (uri: http://172.18.0.6:5555) from DOWN to UP
+selenium-framework_Batch             | 08:30:13.970 INFO [LocalDistributor.add] - Added node 82790954-b886-4d76-85f9-65015f00ff14 at http://172.18.0.6:5555. Health check every 120s
+seleniumframeworkpractice-chrome-4   | 08:30:13.974 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+seleniumframeworkpractice-chrome-3   | 08:30:14.168 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+seleniumframeworkpractice-chrome-5   | 08:30:14.186 INFO [UnboundZmqEventBus.<init>] - Event bus ready
+seleniumframeworkpractice-chrome-3   | 08:30:14.266 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.8:5555
+seleniumframeworkpractice-chrome-5   | 08:30:14.276 INFO [NodeServer.createHandlers] - Reporting self as: http://172.18.0.7:5555
+seleniumframeworkpractice-chrome-3   | 08:30:14.282 INFO [NodeOptions.getSessionFactories] - Detected 16 available processors
+seleniumframeworkpractice-chrome-5   | 08:30:14.291 INFO [NodeOptions.getSessionFactories] - Detected 16 available processors
+seleniumframeworkpractice-chrome-3   | 08:30:14.315 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "108.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+seleniumframeworkpractice-chrome-5   | 08:30:14.326 INFO [NodeOptions.report] - Adding chrome for {"browserVersion": "108.0","se:noVncPort": 7900,"browserName": "chrome","platformName": "LINUX","se:vncEnabled": true} 1 times
+seleniumframeworkpractice-chrome-3   | 08:30:14.334 INFO [Node.<init>] - Binding additional locator mechanisms: relative, id, name
+seleniumframeworkpractice-chrome-5   | 08:30:14.341 INFO [Node.<init>] - Binding additional locator mechanisms: id, name, relative
+seleniumframeworkpractice-chrome-3   | 08:30:14.483 INFO [NodeServer$1.start] - Starting registration process for Node http://172.18.0.8:5555
+seleniumframeworkpractice-chrome-3   | 08:30:14.483 INFO [NodeServer.execute] - Started Selenium node 4.7.2 (revision 4d4020c3b7): http://172.18.0.8:5555
+seleniumframeworkpractice-chrome-5   | 08:30:14.491 INFO [NodeServer$1.start] - Starting registration process for Node http://172.18.0.7:5555
+seleniumframeworkpractice-chrome-5   | 08:30:14.492 INFO [NodeServer.execute] - Started Selenium node 4.7.2 (revision 4d4020c3b7): http://172.18.0.7:5555
+seleniumframeworkpractice-chrome-3   | 08:30:14.491 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-framework_Batch             | 08:30:14.496 INFO [Node.<init>] - Binding additional locator mechanisms: name, id, relative
+seleniumframeworkpractice-chrome-5   | 08:30:14.502 INFO [NodeServer$1.lambda$start$1] - Sending registration event...
+selenium-framework_Batch             | 08:30:14.598 INFO [GridModel.setAvailability] - Switching Node f9764004-2992-48fe-9b04-1eeb72f19901 (uri: http://172.18.0.8:5555) from DOWN to UP
+selenium-framework_Batch             | 08:30:14.598 INFO [LocalDistributor.add] - Added node f9764004-2992-48fe-9b04-1eeb72f19901 at http://172.18.0.8:5555. Health check every 120s
+selenium-framework_Batch             | 08:30:14.599 INFO [Node.<init>] - Binding additional locator mechanisms: id, relative, name
+seleniumframeworkpractice-chrome-3   | 08:30:14.603 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-framework_Batch             | 08:30:14.696 INFO [GridModel.setAvailability] - Switching Node e3466c3e-2703-413b-843d-ec58583ccf06 (uri: http://172.18.0.7:5555) from DOWN to UP
+selenium-framework_Batch             | 08:30:14.696 INFO [LocalDistributor.add] - Added node e3466c3e-2703-413b-843d-ec58583ccf06 at http://172.18.0.7:5555. Health check every 120s
+seleniumframeworkpractice-chrome-5   | 08:30:14.699 INFO [NodeServer.lambda$createHandlers$2] - Node has been added
+selenium-framework_Batch             | 08:30:19.406 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-framework_Batch             |  [Capabilities {browserName: chrome}, Capabilities {browserName: chrome, platform: ANY, version: }]
+selenium-framework_Batch             | 08:30:19.406 INFO [LocalDistributor.newSession] - Session request received by the Distributor: 
+selenium-framework_Batch             |  [Capabilities {browserName: chrome}, Capabilities {browserName: chrome, platform: ANY, version: }]
+seleniumframeworkpractice-chrome-5   | Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 16661
+seleniumframeworkpractice-chrome-5   | Only local connections are allowed.
+seleniumframeworkpractice-chrome-4   | Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 1391
+seleniumframeworkpractice-chrome-4   | Only local connections are allowed.
+seleniumframeworkpractice-chrome-4   | Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+seleniumframeworkpractice-chrome-4   | ChromeDriver was started successfully.
+seleniumframeworkpractice-chrome-4   | [1689237019.496][SEVERE]: bind() failed: Cannot assign requested address (99)
+seleniumframeworkpractice-chrome-5   | Please see https://chromedriver.chromium.org/security-considerations for suggestions on keepin[g ChromeDriver s1689237019.495][SEVEREa]:f bien.d
+seleniumframeworkpractice-chrome-5   | Chrome(D)r ifvaeir lweasd s:t aCratnendo ts uacscseisgsnf urlelqyu.
+seleniumframeworkpractice-chrome-5   | ested address (99)
+seleniumframeworkpractice-chrome-4   | 08:30:20.248 INFO [LocalNode.newSession] - Session created by the Node. Id: 136537b09b4beaea24a56161a18dc671, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.kn57DT}, goog:chromeOptions: {debuggerAddress: localhost:43137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: http://localhost:43137, se:cdpVersion: 108.0.5359.124, se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-framework_Batch             | 08:30:20.275 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 136537b09b4beaea24a56161a18dc671 
+selenium-framework_Batch             |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.kn57DT}, goog:chromeOptions: {debuggerAddress: localhost:43137}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.18.0.6:4444/sessio..., se:cdpVersion: 108.0.5359.124, se:vnc: ws://172.18.0.6:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.6:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+seleniumframeworkpractice-chrome-5   | 08:30:20.294 INFO [LocalNode.newSession] - Session created by the Node. Id: 8809b931520e19fad7c2ca9d6cc8790c, Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.GUOI9G}, goog:chromeOptions: {debuggerAddress: localhost:38729}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: http://localhost:38729, se:cdpVersion: 108.0.5359.124, se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.7:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenium-framework_Batch             | 08:30:20.321 INFO [LocalDistributor.newSession] - Session created by the Distributor. Id: 8809b931520e19fad7c2ca9d6cc8790c 
+selenium-framework_Batch             |  Caps: Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.124, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: /tmp/.com.google.Chrome.GUOI9G}, goog:chromeOptions: {debuggerAddress: localhost:38729}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: {}, se:bidiEnabled: false, se:cdp: ws://172.18.0.7:4444/sessio..., se:cdpVersion: 108.0.5359.124, se:vnc: ws://172.18.0.7:4444/sessio..., se:vncEnabled: true, se:vncLocalAddress: ws://172.18.0.7:7900, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+seleniumframeworkpractice-chrome-4   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+seleniumframeworkpractice-chrome-5   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+seleniumframeworkpractice-chrome-2   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+seleniumframeworkpractice-chrome-1   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+seleniumframeworkpractice-firefox-1  | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+seleniumframeworkpractice-chrome-3   | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:30,217 WARN received SIGTERM indicating exit request
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:30,218 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:30,261 WARN received SIGTERM indicating exit request
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:30,261 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+selenium-framework_Batch             | 08:30:30.279 INFO [GridModel.release] - Releasing slot for session id 136537b09b4beaea24a56161a18dc671
+selenium-framework_Batch             | 08:30:30.279 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 136537b09b4beaea24a56161a18dc671
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:30,306 WARN received SIGTERM indicating exit request
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:30,307 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+selenium-framework_Batch             | 08:30:30.330 INFO [GridModel.release] - Releasing slot for session id 8809b931520e19fad7c2ca9d6cc8790c
+selenium-framework_Batch             | 08:30:30.331 INFO [LocalSessionMap.lambda$new$0] - Deleted session from local Session Map, Id: 8809b931520e19fad7c2ca9d6cc8790c
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:30,542 INFO stopped: selenium-node (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:30,602 INFO stopped: selenium-node (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:30,624 WARN received SIGTERM indicating exit request
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:30,624 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:30,652 INFO stopped: selenium-node (terminated by SIGTERM)
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:30:30,936 WARN received SIGTERM indicating exit request
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:30:30,938 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:30,953 INFO stopped: selenium-node (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:30,977 WARN received SIGTERM indicating exit request
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:30,979 INFO waiting for xvfb, vnc, novnc, selenium-node to die
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:30:31,268 INFO stopped: selenium-node (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:31,313 INFO stopped: selenium-node (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:31,544 INFO stopped: novnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:31,604 INFO stopped: novnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:31,654 INFO stopped: novnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:31,954 INFO stopped: novnc (terminated by SIGTERM)
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:30:32,270 INFO stopped: novnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:32,316 INFO stopped: novnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:32,546 INFO stopped: vnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:32,606 INFO stopped: vnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:32,656 INFO stopped: vnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:32,956 INFO stopped: vnc (terminated by SIGTERM)
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:30:33,273 INFO stopped: vnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:33,319 INFO stopped: vnc (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-2   | 2023-07-13 08:30:33,548 INFO stopped: xvfb (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-2   | Shutdown complete
+seleniumframeworkpractice-chrome-4   | 2023-07-13 08:30:33,608 INFO stopped: xvfb (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-4   | Shutdown complete
+seleniumframeworkpractice-chrome-5   | 2023-07-13 08:30:33,657 INFO stopped: xvfb (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-5   | Shutdown complete
+seleniumframeworkpractice-chrome-3   | 2023-07-13 08:30:33,959 INFO stopped: xvfb (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-3   | Shutdown complete
+seleniumframeworkpractice-firefox-1  | 2023-07-13 08:30:34,274 INFO stopped: xvfb (terminated by SIGTERM)
+seleniumframeworkpractice-firefox-1  | Shutdown complete
+seleniumframeworkpractice-chrome-1   | 2023-07-13 08:30:34,321 INFO stopped: xvfb (terminated by SIGTERM)
+seleniumframeworkpractice-chrome-1   | Shutdown complete
+seleniumframeworkpractice-chrome-2 exited with code 0
+seleniumframeworkpractice-chrome-2 exited with code 143
+seleniumframeworkpractice-chrome-5 exited with code 0
+seleniumframeworkpractice-chrome-5 exited with code 143
+seleniumframeworkpractice-chrome-4 exited with code 0
+seleniumframeworkpractice-chrome-4 exited with code 143
+seleniumframeworkpractice-chrome-3 exited with code 0
+seleniumframeworkpractice-chrome-3 exited with code 143
+seleniumframeworkpractice-firefox-1 exited with code 0
+seleniumframeworkpractice-firefox-1 exited with code 143
+seleniumframeworkpractice-chrome-1 exited with code 0
+selenium-framework_Batch             | Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+selenium-framework_Batch             | 2023-07-13 08:30:35,337 WARN received SIGTERM indicating exit request
+selenium-framework_Batch             | 2023-07-13 08:30:35,337 INFO waiting for selenium-grid-hub to die
+selenium-framework_Batch             | 2023-07-13 08:30:36,339 INFO stopped: selenium-grid-hub (terminated by SIGTERM)
+selenium-framework_Batch             | Shutdown complete
+selenium-framework_Batch exited with code 0
