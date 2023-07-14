@@ -11,8 +11,8 @@ public class TC_02_EndToEnd extends BaseTest {
 
 	@Test
 	public void tc_02_EndToEnd() {
-		//LandingPage landingPage = new LandingPage(getDriver());
-		//landingPage.login_To_Application("Admin", "admin123");
+		LandingPage landingPage = new LandingPage(getDriver());
+		landingPage.login_To_Application("Admin", "admin123");
 		AdminPage adminPage = new AdminPage(getDriver());
 		adminPage.click_Admin();
 		adminPage.Admin_Page_Check();
