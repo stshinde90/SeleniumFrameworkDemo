@@ -60,14 +60,15 @@ public class BaseTest {
 		
 	}
 	
-	public static Properties properties() throws IOException
+	public Properties properties(String filePath) throws IOException
 	{
 		prop = new Properties();
 		fis = new FileInputStream(
-				new File(System.getProperty("user.dir") + "\\src\\test\\java\\dataUtils\\data.properties"));
+				new File(System.getProperty("user.dir") + filePath));
 		prop.load(fis);
 		return prop;
 	}
+	//"\\src\\test\\java\\dataUtils\\data.properties"
 	
 	public WebDriver initializeDriver() throws IOException {
 		
