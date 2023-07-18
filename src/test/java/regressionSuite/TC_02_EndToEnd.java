@@ -18,6 +18,7 @@ public class TC_02_EndToEnd extends BaseTest {
 	    Properties prop = properties("\\src\\test\\java\\dataUtils\\data.properties");
 		landingPage.login_To_Application(prop.getProperty("username"), prop.getProperty("password"));
 		AdminPage adminPage = new AdminPage(getDriver());
+		Thread.sleep(1500);
 		adminPage.click_Admin();
 		adminPage.Admin_Page_Check();
 		PIMPage pimPage = adminPage.click_PIM();

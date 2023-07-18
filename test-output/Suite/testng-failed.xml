@@ -4,17 +4,17 @@
   <listeners>
     <listener class-name="test_Components.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="TC_03(failed)">
+  <test thread-count="5" parallel="tests" name="TC_01(failed)">
     <classes>
-      <class name="regressionSuite.TC_02_EndToEnd">
+      <class name="regressionSuite.TC_01_EndToEnd">
         <methods>
           <include name="tearDown"/>
           <include name="configureDocker"/>
           <include name="unloadDocker"/>
           <include name="setUp"/>
-          <include name="tc_02_EndToEnd"/>
+          <include name="tc_01_EndToEnd"/>
         </methods>
-      </class> <!-- regressionSuite.TC_02_EndToEnd -->
+      </class> <!-- regressionSuite.TC_01_EndToEnd -->
     </classes>
-  </test> <!-- TC_03(failed) -->
+  </test> <!-- TC_01(failed) -->
 </suite> <!-- Failed suite [Suite] -->
