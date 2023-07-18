@@ -11,9 +11,9 @@
 		</classes>
 	</test> <!--
 	Test -->
-	<test thread-count="5" name="TC_02">
+	<test thread-count="5" name="TC_03">
 		<classes>
-			<class name="regressionSuite.TC_02_EndToEnd" />
+			<class name="regressionSuite.TC_03_EndToEnd_LeavePage" />
 		</classes>
 	</test>
 

@@ -3,6 +3,7 @@ package abstract_Components;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.util.List;
 import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
@@ -29,9 +30,17 @@ public class ReusableMethods{
 	
 	@FindBy(xpath= "//nav[@role='navigation']//li[2]//span")
 	WebElement lnk_PIM;
+	
+	@FindBy(xpath= "//nav[@role='navigation']//li[3]//span")
+	List<WebElement> lnk_Leave;
+	
 
 	public void click_Admin() {
 		lnk_Admin.click();
+	}
+	
+	public void click_Leave() {
+		lnk_Leave.get(0).click();
 	}
 	
 	public Properties properties(String filePath) throws IOException
