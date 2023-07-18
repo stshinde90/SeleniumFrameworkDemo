@@ -1,5 +1,8 @@
 package pageObjects;
 
+import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -28,9 +31,10 @@ public class AdminPage extends ReusableMethods{
 	
 	
 			
-	public void Admin_Page_Check()
+	public void Admin_Page_Check() throws IOException
 	{
-		txtbx_InputValue.sendKeys("12345");
+		prop=properties("\\src\\main\\java\\dataUtilsPages\\adminPage.properties");
+		txtbx_InputValue.sendKeys(prop.getProperty("usernameValue"));
 		btn_Login.click();
 	}
 	

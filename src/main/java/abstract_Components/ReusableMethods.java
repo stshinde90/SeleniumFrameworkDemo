@@ -1,5 +1,10 @@
 package abstract_Components;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,6 +16,8 @@ import pageObjects.PIMPage;
 public class ReusableMethods{
 
 	public WebDriver driver;
+	public static Properties prop;
+	public static FileInputStream fis;
 
 	public ReusableMethods(WebDriver driver) {
 		this.driver = driver;
@@ -25,6 +32,15 @@ public class ReusableMethods{
 
 	public void click_Admin() {
 		lnk_Admin.click();
+	}
+	
+	public Properties properties(String filePath) throws IOException
+	{
+		prop = new Properties();
+		fis = new FileInputStream(
+				new File(System.getProperty("user.dir") + filePath));
+		prop.load(fis);
+		return prop;
 	}
 	
 	public PIMPage click_PIM()

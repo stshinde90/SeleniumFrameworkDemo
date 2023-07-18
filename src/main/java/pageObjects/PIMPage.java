@@ -1,5 +1,7 @@
 package pageObjects;
 
+import java.io.IOException;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -30,9 +32,10 @@ public class PIMPage extends ReusableMethods {
 	WebElement btn_Login;
 	
 			
-	public void PIM_Page_Check()
+	public void PIM_Page_Check() throws IOException
 	{
-		txtbx_InputValue.sendKeys("12345");
+		prop=properties("\\src\\main\\java\\dataUtilsPages\\PIMPage.properties");
+		txtbx_InputValue.sendKeys(prop.getProperty("usernameValue"));
 		btn_Login.click();
 	}
 	
