@@ -68,7 +68,6 @@ public class BaseTest {
 		prop.load(fis);
 		return prop;
 	}
-	//"\\src\\test\\java\\dataUtils\\data.properties"
 	
 	public WebDriver initializeDriver() throws IOException {
 		

@@ -13,7 +13,7 @@ import test_Components.BaseTest;
 public class TC_01_EndToEnd extends BaseTest {
 
 	@Test
-	public void tc_01_EndToEnd() throws IOException {
+	public void tc_01_EndToEnd() throws IOException, InterruptedException {
 		LandingPage landingPage = new LandingPage(getDriver());
 		Properties prop = properties("\\src\\test\\java\\dataUtils\\data.properties");
 		landingPage.login_To_Application(prop.getProperty("username"), prop.getProperty("password"));

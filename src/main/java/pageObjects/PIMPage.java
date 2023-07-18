@@ -14,11 +14,12 @@ public class PIMPage extends ReusableMethods {
 	
 	public WebDriver driver;
 	
-	public PIMPage(WebDriver driver)
+	public PIMPage(WebDriver driver) throws IOException
 	{
 		super(driver);
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		prop=properties("\\src\\main\\java\\dataUtilsPages\\PIMPage.properties");
 	}
 	
 	
@@ -30,12 +31,12 @@ public class PIMPage extends ReusableMethods {
 	
 	@FindBy(xpath= "//button[@type='submit']")
 	WebElement btn_Login;
-	
 			
-	public void PIM_Page_Check() throws IOException
+	public void PIM_Page_Check() throws IOException, InterruptedException
 	{
-		prop=properties("\\src\\main\\java\\dataUtilsPages\\PIMPage.properties");
+		//
 		txtbx_InputValue.sendKeys(prop.getProperty("usernameValue"));
+		Thread.sleep(3000);
 		btn_Login.click();
 	}
 	

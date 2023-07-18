@@ -43,7 +43,7 @@ public class ReusableMethods{
 		return prop;
 	}
 	
-	public PIMPage click_PIM()
+	public PIMPage click_PIM() throws IOException
 	{
 		lnk_PIM.click();
 		return new PIMPage(driver);

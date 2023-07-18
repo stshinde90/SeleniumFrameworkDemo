@@ -6,6 +6,8 @@
       <class name="regressionSuite.TC_01_EndToEnd">
         <methods>
           <include name="tearDown"/>
+          <include name="configureDocker"/>
+          <include name="unloadDocker"/>
           <include name="setUp"/>
           <include name="tc_01_EndToEnd"/>
         </methods>

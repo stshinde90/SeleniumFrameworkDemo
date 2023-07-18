@@ -15,11 +15,12 @@ public class AdminPage extends ReusableMethods{
 	
 	public WebDriver driver;
 	
-	public AdminPage(WebDriver driver)
+	public AdminPage(WebDriver driver) throws IOException
 	{
 		super(driver);
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		prop=properties("\\src\\main\\java\\dataUtilsPages\\adminPage.properties");
 	}
 	
 	
@@ -33,7 +34,7 @@ public class AdminPage extends ReusableMethods{
 			
 	public void Admin_Page_Check() throws IOException
 	{
-		prop=properties("\\src\\main\\java\\dataUtilsPages\\adminPage.properties");
+		//
 		txtbx_InputValue.sendKeys(prop.getProperty("usernameValue"));
 		btn_Login.click();
 	}
