@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="test_Components.Listeners"/>
   </listeners>
-  <test thread-count="5" parallel="tests" name="TC_02(failed)">
+  <test thread-count="5" parallel="tests" name="TC_03(failed)">
     <classes>
       <class name="regressionSuite.TC_02_EndToEnd">
         <methods>
@@ -16,5 +16,5 @@
         </methods>
       </class> <!-- regressionSuite.TC_02_EndToEnd -->
     </classes>
-  </test> <!-- TC_02(failed) -->
+  </test> <!-- TC_03(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="test_Components.Listeners"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="TC_03(failed)">
     <classes>
-      <class name="regressionSuite.TC_01_EndToEnd">
+      <class name="regressionSuite.TC_02_EndToEnd">
         <methods>
           <include name="tearDown"/>
           <include name="configureDocker"/>
           <include name="unloadDocker"/>
           <include name="setUp"/>
-          <include name="tc_01_EndToEnd"/>
+          <include name="tc_02_EndToEnd"/>
         </methods>
-      </class> <!-- regressionSuite.TC_01_EndToEnd -->
+      </class> <!-- regressionSuite.TC_02_EndToEnd -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- TC_03(failed) -->
+</suite> <!-- Failed suite [Suite] -->
