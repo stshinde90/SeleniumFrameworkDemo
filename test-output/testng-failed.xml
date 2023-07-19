@@ -4,6 +4,19 @@
   <listeners>
     <listener class-name="test_Components.Listeners"/>
   </listeners>
+  <test thread-count="5" parallel="tests" name="TC_02(failed)">
+    <classes>
+      <class name="regressionSuite.TC_02_EndToEnd">
+        <methods>
+          <include name="tearDown"/>
+          <include name="configureDocker"/>
+          <include name="unloadDocker"/>
+          <include name="setUp"/>
+          <include name="tc_02_EndToEnd"/>
+        </methods>
+      </class> <!-- regressionSuite.TC_02_EndToEnd -->
+    </classes>
+  </test> <!-- TC_02(failed) -->
   <test thread-count="5" parallel="tests" name="TC_01(failed)">
     <classes>
       <class name="regressionSuite.TC_01_EndToEnd">

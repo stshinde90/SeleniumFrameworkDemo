@@ -56,6 +56,7 @@ public class BaseTest {
 		prop.load(fis);
 
 		browserName = System.getProperty("browser") != null ? System.getProperty("browser") : prop.getProperty("browser");
+		System.out.println(browserName);
 		return browserName;
 		
 	}
@@ -64,7 +65,7 @@ public class BaseTest {
 	{
 		prop = new Properties();
 		fis = new FileInputStream(
-				new File(System.getProperty("user.dir") + filePath));
+				new File(System.getProperty("user.dir") + "\\src\\test\\java\\dataUtils\\"+filePath+""));
 		prop.load(fis);
 		return prop;
 	}

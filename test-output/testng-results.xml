@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-18T12:23:19Z" name="Suite" finished-at="2023-07-18T12:23:33Z" duration-ms="13733">
+  <suite started-at="2023-07-19T11:11:00Z" name="Suite" finished-at="2023-07-19T11:11:14Z" duration-ms="13532">
     <groups>
     </groups>
-    <test started-at="2023-07-18T12:23:19Z" name="TC_02" finished-at="2023-07-18T12:23:33Z" duration-ms="13463">
+    <test started-at="2023-07-19T11:11:00Z" name="TC_02" finished-at="2023-07-19T11:11:13Z" duration-ms="12788">
       <class name="regressionSuite.TC_02_EndToEnd">
-        <test-method is-config="true" signature="configureDocker()[pri:0, instance:regressionSuite.TC_02_EndToEnd@6b7906b3]" started-at="2023-07-18T12:23:19Z" name="configureDocker" finished-at="2023-07-18T12:23:19Z" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="configureDocker()[pri:0, instance:regressionSuite.TC_02_EndToEnd@6b7906b3]" started-at="2023-07-19T11:10:35Z" name="configureDocker" finished-at="2023-07-19T11:11:00Z" duration-ms="25371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureDocker -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:regressionSuite.TC_02_EndToEnd@6b7906b3]" started-at="2023-07-18T12:23:19Z" name="setUp" finished-at="2023-07-18T12:23:24Z" duration-ms="5093" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:regressionSuite.TC_02_EndToEnd@6b7906b3]" started-at="2023-07-19T11:11:00Z" name="setUp" finished-at="2023-07-19T11:11:05Z" duration-ms="4493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tc_02_EndToEnd()[pri:0, instance:regressionSuite.TC_02_EndToEnd@6b7906b3]" started-at="2023-07-18T12:23:24Z" name="tc_02_EndToEnd" finished-at="2023-07-18T12:23:32Z" duration-ms="8258" status="PASS">
+        <test-method signature="tc_02_EndToEnd()[pri:0, instance:regressionSuite.TC_02_EndToEnd@6b7906b3]" started-at="2023-07-19T11:11:05Z" name="tc_02_EndToEnd" finished-at="2023-07-19T11:11:13Z" duration-ms="8149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_02_EndToEnd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:regressionSuite.TC_02_EndToEnd@6b7906b3]" started-at="2023-07-18T12:23:32Z" name="tearDown" finished-at="2023-07-18T12:23:33Z" duration-ms="87" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:regressionSuite.TC_02_EndToEnd@6b7906b3]" started-at="2023-07-19T11:11:13Z" name="tearDown" finished-at="2023-07-19T11:11:13Z" duration-ms="128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="unloadDocker()[pri:0, instance:regressionSuite.TC_02_EndToEnd@6b7906b3]" started-at="2023-07-18T12:23:33Z" name="unloadDocker" finished-at="2023-07-18T12:23:33Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="unloadDocker()[pri:0, instance:regressionSuite.TC_02_EndToEnd@6b7906b3]" started-at="2023-07-19T11:11:14Z" name="unloadDocker" finished-at="2023-07-19T11:11:26Z" duration-ms="12018" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- unloadDocker -->
       </class> <!-- regressionSuite.TC_02_EndToEnd -->
     </test> <!-- TC_02 -->
-    <test started-at="2023-07-18T12:23:19Z" name="TC_01" finished-at="2023-07-18T12:23:33Z" duration-ms="13733">
+    <test started-at="2023-07-19T11:11:00Z" name="TC_01" finished-at="2023-07-19T11:11:14Z" duration-ms="13532">
       <class name="regressionSuite.TC_01_EndToEnd">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:regressionSuite.TC_01_EndToEnd@35e5d0e5]" started-at="2023-07-18T12:23:19Z" name="setUp" finished-at="2023-07-18T12:23:24Z" duration-ms="5197" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:regressionSuite.TC_01_EndToEnd@35e5d0e5]" started-at="2023-07-19T11:11:00Z" name="setUp" finished-at="2023-07-19T11:11:05Z" duration-ms="4587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="tc_01_EndToEnd()[pri:0, instance:regressionSuite.TC_01_EndToEnd@35e5d0e5]" started-at="2023-07-18T12:23:24Z" name="tc_01_EndToEnd" finished-at="2023-07-18T12:23:33Z" duration-ms="8440" status="PASS">
+        <test-method signature="tc_01_EndToEnd()[pri:0, instance:regressionSuite.TC_01_EndToEnd@35e5d0e5]" started-at="2023-07-19T11:11:05Z" name="tc_01_EndToEnd" finished-at="2023-07-19T11:11:13Z" duration-ms="8807" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc_01_EndToEnd -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:regressionSuite.TC_01_EndToEnd@35e5d0e5]" started-at="2023-07-18T12:23:33Z" name="tearDown" finished-at="2023-07-18T12:23:33Z" duration-ms="93" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:regressionSuite.TC_01_EndToEnd@35e5d0e5]" started-at="2023-07-19T11:11:13Z" name="tearDown" finished-at="2023-07-19T11:11:14Z" duration-ms="134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

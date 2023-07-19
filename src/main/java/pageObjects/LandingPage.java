@@ -26,13 +26,12 @@ public class LandingPage extends ReusableMethods {
 	@FindBy(xpath = "//button[@type='submit']")
 	WebElement btn_Login;
 
-	
-
-	public void login_To_Application(String username, String password) {
+	public void login_To_Application(String username, String password) throws InterruptedException {
 		
 		txtbx_userName.sendKeys(username);
 		txtbx_password.sendKeys(password);
 		btn_Login.click();
+		Thread.sleep(1500);
 	}
 
 }

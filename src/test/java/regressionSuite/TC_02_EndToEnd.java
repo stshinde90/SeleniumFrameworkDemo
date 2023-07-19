@@ -15,14 +15,13 @@ public class TC_02_EndToEnd extends BaseTest {
 	@Test
 	public void tc_02_EndToEnd() throws IOException, InterruptedException {
 		LandingPage landingPage = new LandingPage(getDriver());
-	    Properties prop = properties("\\src\\test\\java\\dataUtils\\data.properties");
+	    Properties prop = properties("data.properties");
 		landingPage.login_To_Application(prop.getProperty("username"), prop.getProperty("password"));
 		AdminPage adminPage = new AdminPage(getDriver());
-		Thread.sleep(1500);
 		adminPage.click_Admin();
-		adminPage.Admin_Page_Check();
+		adminPage.Admin_Page_Check(properties("adminPage.properties").getProperty("usernameValue"));
 		PIMPage pimPage = adminPage.click_PIM();
-		pimPage.PIM_Page_Check();
+		pimPage.PIM_Page_Check(properties("PIMPage.properties").getProperty("usernameValue"));
 	}
 
 }

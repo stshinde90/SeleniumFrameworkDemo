@@ -32,10 +32,10 @@ public class AdminPage extends ReusableMethods{
 	
 	
 			
-	public void Admin_Page_Check() throws IOException
+	public void Admin_Page_Check(String userInput) throws IOException
 	{
 		//
-		txtbx_InputValue.sendKeys(prop.getProperty("usernameValue"));
+		txtbx_InputValue.sendKeys(userInput);
 		btn_Login.click();
 	}
 	
