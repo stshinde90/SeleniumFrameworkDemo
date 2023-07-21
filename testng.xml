@@ -8,12 +8,13 @@
 	<test thread-count="5" name="TC_01">
 		<classes>
 			<class name="regressionSuite.TC_01_EndToEnd" />
+			<class name="regressionSuite.TC_04_EndToEnd_MyInfo" />
 		</classes>
 	</test> <!--Test -->
 	<test thread-count="5" name="TC_02">
 		<classes>
 			<class name="regressionSuite.TC_02_EndToEnd" />
 		</classes>
-	</test>
+	</test> <!--Test -->
 
 </suite> <!--Suite -->

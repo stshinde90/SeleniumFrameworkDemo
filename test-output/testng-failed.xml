@@ -17,17 +17,17 @@
       </class> <!-- regressionSuite.TC_02_EndToEnd -->
     </classes>
   </test> <!-- TC_02(failed) -->
-  <test thread-count="5" parallel="tests" name="TC_01(failed)">
+  <test thread-count="5" parallel="tests" name="TC_03(failed)">
     <classes>
-      <class name="regressionSuite.TC_01_EndToEnd">
+      <class name="regressionSuite.TC_04_EndToEnd_MyInfo">
         <methods>
           <include name="tearDown"/>
           <include name="configureDocker"/>
           <include name="unloadDocker"/>
           <include name="setUp"/>
-          <include name="tc_01_EndToEnd"/>
+          <include name="tc_04_EndToEnd"/>
         </methods>
-      </class> <!-- regressionSuite.TC_01_EndToEnd -->
+      </class> <!-- regressionSuite.TC_04_EndToEnd_MyInfo -->
     </classes>
-  </test> <!-- TC_01(failed) -->
+  </test> <!-- TC_03(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Properties;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,6 +14,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import pageObjects.MyInfoPage;
 import pageObjects.PIMPage;
 
 public class ReusableMethods {
@@ -35,15 +37,37 @@ public class ReusableMethods {
 
 	@FindBy(xpath = "//nav[@role='navigation']//li[3]//span")
 	List<WebElement> lnk_Leave;
+	
+	@FindBy(xpath = "//nav[@role='navigation']//li[6]//span")
+	WebElement lnk_MyInfo;
+	
+	@FindBy(xpath= "//button[@type='submit']")
+	WebElement btn_Login;
+	
+	public void click_Submit_Button()
+	{
+		btn_Login.click();
+	}
+	
 
 	public void click_Admin() {
 		//waitForElementClickable(lnk_Admin);
 		lnk_Admin.click();
 	}
+	
+	public MyInfoPage click_MyInfo() throws IOException {
+		lnk_MyInfo.click();
+		return new MyInfoPage(driver);
+	}
+	
+	public void scrollIntoView(WebElement element)
+	{
+		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", element);
+	}
 
 	public void waitForElementClickable(WebElement element) {
 		wait = new WebDriverWait(driver, 30);
-		wait.until(ExpectedConditions.elementToBeSelected(element));
+		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 
 	public void click_Leave() {

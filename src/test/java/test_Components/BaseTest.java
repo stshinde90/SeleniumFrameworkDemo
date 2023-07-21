@@ -56,7 +56,6 @@ public class BaseTest {
 		prop.load(fis);
 
 		browserName = System.getProperty("browser") != null ? System.getProperty("browser") : prop.getProperty("browser");
-		System.out.println(browserName);
 		return browserName;
 		
 	}
