@@ -30,19 +30,19 @@ public class ReusableMethods {
 	}
 
 	@FindBy(xpath = "//nav[@role='navigation']//li[1]//span")
-	WebElement lnk_Admin;
+	private WebElement lnk_Admin;
 
 	@FindBy(xpath = "//nav[@role='navigation']//li[2]//span")
-	WebElement lnk_PIM;
+	private WebElement lnk_PIM;
 
 	@FindBy(xpath = "//nav[@role='navigation']//li[3]//span")
-	List<WebElement> lnk_Leave;
+	private List<WebElement> lnk_Leave;
 	
 	@FindBy(xpath = "//nav[@role='navigation']//li[6]//span")
-	WebElement lnk_MyInfo;
+	private WebElement lnk_MyInfo;
 	
 	@FindBy(xpath= "//button[@type='submit']")
-	WebElement btn_Login;
+	private WebElement btn_Login;
 	
 	public void click_Submit_Button()
 	{

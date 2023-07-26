@@ -17,22 +17,19 @@ public class TC_04_EndToEnd_MyInfo extends BaseTest {
 	public void tc_04_EndToEnd() throws IOException, InterruptedException {
 
 		LandingPage landingPage = new LandingPage(getDriver());
-		//prop = properties("data.properties");
-		//landingPage.login_To_Application(prop.getProperty("username"), prop.getProperty("password"));
+		prop = properties("data.properties");
+		landingPage.login_To_Application(prop.getProperty("username"), prop.getProperty("password"));
 		MyInfoPage myInfoPage = landingPage.click_MyInfo();
-		Properties myInfoProp =properties("MyInfoPage.properties");
-		myInfoPage.enter_First_Name(myInfoProp.getProperty("firstName"));
-		myInfoPage.enter_Calender_Date(myInfoProp.getProperty("calDate"));
+		//Properties myInfoProp =properties("MyInfoPage.properties");
+		myInfoPage.enter_First_Name(properties("MyInfoPage.properties").getProperty("firstName"));
+		myInfoPage.enter_Calender_Date(properties("MyInfoPage.properties").getProperty("calDate"));
     	myInfoPage.click_Submit_Button();
     	Thread.sleep(3000);
 		String actualToasterMessage = myInfoPage.validate_Toaster_Message();
-    	if(!actualToasterMessage.contains(myInfoProp.getProperty("expectedToasterMessage")))
+    	if(!actualToasterMessage.contains(properties("MyInfoPage.properties").getProperty("expectedToasterMessage")))
     	{
     		Assert.assertFalse(false);
-    	}
-		
-		
-		
+    	}	
 
 	}
 

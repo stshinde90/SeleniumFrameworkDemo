@@ -25,10 +25,10 @@ public class AdminPage extends ReusableMethods{
 	
 	
 	@FindBy(xpath= "//div[@class='']//input[@class='oxd-input oxd-input--active']")
-	WebElement txtbx_InputValue;
+	private WebElement txtbx_InputValue;
 	
 	@FindBy(xpath= "//button[@type='submit']")
-	WebElement btn_Login;
+	private WebElement btn_Login;
 	
 	
 			

@@ -18,13 +18,13 @@ public class LandingPage extends ReusableMethods {
 	}
 
 	@FindBy(name = "username")
-	WebElement txtbx_userName;
+	private WebElement txtbx_userName;
 
 	@FindBy(name = "password")
-	WebElement txtbx_password;
+	private WebElement txtbx_password;
 
 	@FindBy(xpath = "//button[@type='submit']")
-	WebElement btn_Login;
+	private WebElement btn_Login;
 
 	public void login_To_Application(String username, String password) throws InterruptedException {
 		

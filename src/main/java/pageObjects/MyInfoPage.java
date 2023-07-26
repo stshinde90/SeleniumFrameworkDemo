@@ -26,16 +26,16 @@ public class MyInfoPage extends ReusableMethods {
 	}	
 	
 	@FindBy(xpath= "//label[contains(text(), 'License Expiry Date')]//parent::div//following-sibling::div//input")
-	WebElement txtbx_license_Exp_Calender;
+	private WebElement txtbx_license_Exp_Calender;
 	
 	@FindBy(id= "oxd-toaster_1")
-	WebElement txt_toasterMessage;
+	private WebElement txt_toasterMessage;
 
 	@FindBy(name= "firstName")
-	WebElement txtbx_firstName;
+	private WebElement txtbx_firstName;
 	
 	@FindBy(xpath= "//button[@type='submit']")
-	List<WebElement> btn_Login;
+	private List<WebElement> btn_Login;
 	
 	public void enter_First_Name(String firstName) throws InterruptedException
 	{

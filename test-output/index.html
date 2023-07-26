@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,11 +103,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="regressionSuite.TC_01_EndToEnd" class="method navigator-link" hash-for-method="tc_01_EndToEnd">tc_01_EndToEnd</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="regressionSuite.TC_02_EndToEnd" class="method navigator-link" hash-for-method="tc_02_EndToEnd">tc_02_EndToEnd</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -145,21 +140,6 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">regressionSuite.TC_02_EndToEnd</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="tc_02_EndToEnd">
-                  </a> <!-- tc_02_EndToEnd -->
-                  <span class="method-name">tc_02_EndToEnd</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
               <span class="class-name">regressionSuite.TC_01_EndToEnd</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -181,21 +161,20 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;test_Components.Listeners&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TC_01&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC_01&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;regressionSuite.TC_01_EndToEnd&quot;/&gt;
-      &lt;class name=&quot;regressionSuite.TC_04_EndToEnd_MyInfo&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- TC_01 --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;TC_02&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TC_03&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;regressionSuite.TC_02_EndToEnd&quot;/&gt;
+      &lt;class name=&quot;regressionSuite.TC_04_EndToEnd_MyInfo&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TC_02 --&gt;
+  &lt;/test&gt; &lt;!-- TC_03 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,10 +186,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">TC_01 (2 classes)</span>
+                <span class="test-name">TC_01 (1 class)</span>
               </li>
               <li>
-                <span class="test-name">TC_02 (1 class)</span>
+                <span class="test-name">TC_03 (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -236,19 +215,15 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'tc_01_EndToEnd')
 data.setCell(0, 2, 'regressionSuite.TC_01_EndToEnd')
-data.setCell(0, 3, 9781);
+data.setCell(0, 3, 14556);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'tc_02_EndToEnd')
-data.setCell(1, 2, 'regressionSuite.TC_02_EndToEnd')
-data.setCell(1, 3, 8258);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'tc_04_EndToEnd')
-data.setCell(2, 2, 'regressionSuite.TC_04_EndToEnd_MyInfo')
-data.setCell(2, 3, 7513);
+data.setCell(1, 1, 'tc_04_EndToEnd')
+data.setCell(1, 2, 'regressionSuite.TC_04_EndToEnd_MyInfo')
+data.setCell(1, 3, 11072);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -268,22 +243,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">regressionSuite.TC_04_EndToEnd_MyInfo</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-                <span class="ignored-method-name">configureDocker</span>
-                <br/>
-                <span class="ignored-method-name">setUp</span>
-                <br/>
-                <span class="ignored-method-name">unloadDocker</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -292,7 +254,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">regressionSuite.TC_02_EndToEnd</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">regressionSuite.TC_04_EndToEnd_MyInfo</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">configureDocker</span>
                 <span class="method-start">0 ms</span>
@@ -302,53 +264,34 @@ return data;
               <div class="chronological-class-name">regressionSuite.TC_01_EndToEnd</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">25870 ms</span>
+                <span class="method-start">12 ms</span>
               </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">regressionSuite.TC_02_EndToEnd</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setUp</span>
-                <span class="method-start">25871 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">tc_02_EndToEnd</span>
-                <span class="method-start">31164 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">regressionSuite.TC_01_EndToEnd</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">tc_01_EndToEnd</span>
-                <span class="method-start">31921 ms</span>
+                <span class="method-start">5759 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">regressionSuite.TC_02_EndToEnd</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">39429 ms</span>
+                <span class="method-start">20324 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">regressionSuite.TC_04_EndToEnd_MyInfo</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">20698 ms</span>
+              </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">tc_04_EndToEnd</span>
-                <span class="method-start">41702 ms</span>
+                <span class="method-start">25415 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">regressionSuite.TC_01_EndToEnd</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">49216 ms</span>
+                <span class="method-start">36490 ms</span>
               </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">regressionSuite.TC_02_EndToEnd</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">unloadDocker</span>
-                <span class="method-start">49362 ms</span>
+                <span class="method-start">36685 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

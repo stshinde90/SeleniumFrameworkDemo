@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="tests">
+<suite name="Suite">
 	<listeners>
 		<listener class-name="test_Components.Listeners">
 		</listener>
@@ -8,13 +8,11 @@
 	<test thread-count="5" name="TC_01">
 		<classes>
 			<class name="regressionSuite.TC_01_EndToEnd" />
+		</classes>
+	</test> <!--Test -->
+	<test thread-count="5" name="TC_03">
+		<classes>
 			<class name="regressionSuite.TC_04_EndToEnd_MyInfo" />
 		</classes>
 	</test> <!--Test -->
-	<test thread-count="5" name="TC_02">
-		<classes>
-			<class name="regressionSuite.TC_02_EndToEnd" />
-		</classes>
-	</test> <!--Test -->
-
 </suite> <!--Suite -->

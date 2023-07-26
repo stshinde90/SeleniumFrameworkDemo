@@ -24,13 +24,13 @@ public class LeavePage extends ReusableMethods {
 	
 	
 	@FindBy(xpath= "//nav[@role='navigation']//li[2]//span")
-	WebElement lnk_PIM;
+	private WebElement lnk_PIM;
 	
 	@FindBy(xpath= "//input[@placeholder='Type for hints...']")
-	WebElement txtbx_InputValue;
+	private WebElement txtbx_InputValue;
 	
 	@FindBy(xpath= "//button[@type='submit']")
-	WebElement btn_Login;
+	private WebElement btn_Login;
 			
 	public void leave_Page_Check(String userInput) throws IOException, InterruptedException
 	{
